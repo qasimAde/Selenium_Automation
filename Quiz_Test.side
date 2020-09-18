@@ -1,0 +1,146 @@
+{
+  "id": "6a960b8f-4aea-4527-b7dc-479eb6f0d381",
+  "version": "2.0",
+  "name": "Quiz_Test",
+  "url": "https://dev.d2rxvhrryr2bkn.amplifyapp.com",
+  "tests": [{
+    "id": "dc572e21-bfb6-40af-b775-d92831a51563",
+    "name": "Autotask",
+    "commands": [{
+      "id": "7bf0e207-1604-4b02-80c9-5c3b553f19d0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2506a6c-83cf-4a48-8785-71e8ecfce5e6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1110x514",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24e2ac13-dbd7-4c93-8a18-627a7166a6af",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get Started",
+      "targets": [
+        ["linkText=Get Started", "linkText"],
+        ["css=.btnadd", "css:finder"],
+        ["xpath=//a[contains(text(),'Get Started')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div/nav/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/signup')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49f039d5-c26f-4a19-b69b-af46f5bb9539",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1c6147a-757e-45c6-9c04-496601076c98",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "username24"
+    }, {
+      "id": "2d7b6b67-ac6f-4a97-b0db-48a5adf07e98",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "username1@mailinator.com"
+    }, {
+      "id": "2cb33a94-df56-4ad6-8e57-0cbb821d1c07",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "T123456#"
+    }, {
+      "id": "7f4b3de7-f139-4b62-bbef-c6d527ef00fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirmPassword",
+      "targets": [
+        ["id=confirmPassword", "id"],
+        ["name=confirmPassword", "name"],
+        ["css=#confirmPassword", "css:finder"],
+        ["xpath=//input[@id='confirmPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13706363-fe32-447f-bbfc-54703fe0c619",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirmPassword",
+      "targets": [
+        ["id=confirmPassword", "id"],
+        ["name=confirmPassword", "name"],
+        ["css=#confirmPassword", "css:finder"],
+        ["xpath=//input[@id='confirmPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "T123456#"
+    }, {
+      "id": "7d2ebba4-3881-46d5-a9ec-63200e19a95b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a686baaa-2b1f-42e3-ba43-e020acf55ffc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dc572e21-bfb6-40af-b775-d92831a51563"]
+  }],
+  "urls": ["https://dev.d2rxvhrryr2bkn.amplifyapp.com/"],
+  "plugins": []
+}
